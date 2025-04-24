@@ -5,5 +5,5 @@ metadata:
   namespace: gitlab-runner
 type: Opaque
 data:
-  AWS_ACCESS_KEY_ID: QUtJQUVYQU1QTEVLRVk= #AKIAEXAMPLEKEY - test keys non functional
-  AWS_SECRET_ACCESS_KEY: d0phbHJYVXRuRkVNSS9LN01ERU5HL2JQeFJmaUNZRVhBTVBMRUtFWQ== #wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY - test keys non functional
+  AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }} 
+  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }} 

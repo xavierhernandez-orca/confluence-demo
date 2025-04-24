@@ -5,4 +5,4 @@ metadata:
   namespace: confluence
 type: Opaque
 data:
-  password: bXlzZWNyZXRwYXNzd29yZA== # mysecretpassword
+  password: ${{ secrets.POSTGRES_PASSWORD }}

@@ -135,8 +135,8 @@ Cross-namespace Secret Access: Unusual access patterns between unrelated workloa
 On your attacker machine:
 
 ```bash
-export AWS_ACCESS_KEY_ID=AKIAEXAMPLEKEY
-export AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+export AWS_ACCESS_KEY_ID=XXXXX
+export AWS_SECRET_ACCESS_KEY=XXXXX
 ```
 
 #### Get Caller Identity
