@@ -1,0 +1,13 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: confluence-access
+  namespace: gitlab-runner
+subjects:
+- kind: ServiceAccount
+  name: default
+  namespace: confluence
+roleRef:
+  kind: Role
+  name: pod-exec-access
+  apiGroup: rbac.authorization.k8s.io
