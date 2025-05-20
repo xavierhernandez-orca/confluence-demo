@@ -62,6 +62,7 @@ Toxic Combination Alert: Orca detects that the default ServiceAccount in the con
 RBAC Misconfiguration: Elevated access for a workload-exposed ServiceAccount is flagged.
 
 Access Pattern Monitoring: Usage of the service account to query sensitive resources triggers anomaly alerts if audit logs are integrated.
+
 ---
 
 ### ✅ Stage 3: Discover GitLab Runner and Steal AWS Credentials
@@ -128,6 +129,7 @@ Lateral Movement Alert: Orca detects access to resources in other namespaces fro
 Sensitive Data in Secrets: Orca flags secrets containing AWS keys as critical posture risks.
 
 Cross-namespace Secret Access: Unusual access patterns between unrelated workloads trigger risk indicators.
+
 ---
 
 ### ✅ Stage 4: Cloud Pivot with Stolen AWS Credentials
